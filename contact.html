@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+    <link href="https://fonts.googleapis.com/css?family=Muli|Sarabun:700" rel="stylesheet">
+    <link href="layout/styles/contact-new.css" rel="stylesheet">
+</head>
+
+<body id="top">
+  <div class="wrapper row1">
+    <header id="header" class="hoc clear"> 
+    
+      <div id="logo" class="fl_left">
+        <h1><a href="index.html"><img src="images/logo_hover.png"></a></h1>
+      </div>
+   
+      <nav id="mainav" class="fl_right">
+        <ul class="clear">
+         <li class="inactive"><a href="index.html">Home</a></li>
+          <li class="inactive"><a href="gallery.html">Gallery</a></li>
+            <li class="inactive"><a href="gadgets.html">Gadgedts</a></li>
+          <li class="inactive"><a href="edits.html">Edits</a></li>
+            <li class="active"><a href="contact-new.html">Contact</a></li>
+            <li class="inactive"><a href="extras.html">Extras</a></li>
+        </ul>
+      </nav>
+      </header>
+    </div>
+	
+	<div class="wrapper">
+		<div id="main" style="padding:50px 0 0 0;">
+		
+		<!-- Form -->
+		<form id="contact-form" action="/" method="post">
+			<div>
+				<label>
+					<span>Name</span>
+					<input placeholder="Please enter your name" type="text" tabindex="1" required autofocus>
+				</label>
+			</div>
+			<div>
+				<label>
+					<span>Email</span>
+					<input placeholder="Please enter your email address" type="email" tabindex="2" required>
+				</label>
+			</div>
+			<div>
+				<label>
+					<span>Telephone</span>
+					<input placeholder="Please enter your number" type="tel" tabindex="3" required>
+				</label>
+			</div>
+			
+			<div>
+				<label>
+					<span>Message</span>
+					<textarea placeholder="Include all the details you can" tabindex="5" required></textarea>
+				</label>
+			</div>
+			<div>
+				<button name="submit" type="submit" id="contact-submit">Send Email</button>
+			</div>
+		</form>
+		<!-- /Form -->
+		
+		</div>
+	</div>
+
+	<script src="layout/scripts/contact.js"></script>
+	
+</body>
+</html>
