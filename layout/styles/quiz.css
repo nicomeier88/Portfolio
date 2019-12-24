@@ -1,0 +1,54 @@
+
+ .quizContainer {
+    background-color: white;
+    border-radius: 6px;
+    width: 75%;
+    margin: auto;
+    padding-top: 5px;
+    -moz-box-shadow: 0px 0px 5px #000000;
+    -webkit-box-shadow: 0px 0px 5px #000000;
+    box-shadow:  0px 0px 5px #000000;
+    position: relative;
+}
+.nextButton {
+    box-shadow: 0px 0px 1px #212121;
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    color: #212121;
+    margin: auto;
+}
+.question {
+    padding-top: 50px;
+    font-size: 2em;
+    width: 90%;
+    margin: auto;
+    border-radius: 6px;
+    text-align: center;
+    color: #212121;
+}
+.quizMessage {
+    padding-top: 50px;
+    background-color: #2D67DC;
+    border-radius: 6px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding: 2px;
+    color: #212121;
+}
+.choiceList {
+    text-align: center;
+    padding-top: 50px;
+    color: #2D67DC;
+}
+.result {
+    padding-top: 50px;
+    width: 30%;
+    height: auto;
+    border-radius: 6px;
+    margin: auto;
+    text-align: center;
+    color: #212121;
+}
